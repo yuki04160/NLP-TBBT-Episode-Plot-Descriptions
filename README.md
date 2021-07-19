@@ -3,7 +3,7 @@ To analyze The Big Bang Theory episode plot descriptions, I cleaned and preproce
 ## Introduction
 Text mining is the process of transforming unstructured text data into a structured format and deriving high-quality information from unstructured data. 
 
-The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 2007 and concluded in 2019, with a total of 279 episodes over 12 seasons. Since I am a big fan of it, I would like to see what information I can obtain and if we don't know TBBT very well, can we briefly understand this TV sitcom based on episode plot descriptions text analysis.
+The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 2007 and concluded in 2019, with a total of 279 episodes over 12 seasons. Since I am a big fan of it, I would like to see what information I can obtain, and if we don't know TBBT very well, can we briefly understand this TV sitcom based on episode plot descriptions text analysis.
 ## Text Data Cleaning and Preprocessing
    - Delete rows
      - To focus on the 279 episode, I deleted two episodes, one unaired pilot and one recap.
