@@ -36,5 +36,6 @@ I assumed that we don't know TBBT very well and wanted to see if we can briefly 
      - Since I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "season", "word", and "count". To see my dashboard: [The Big Bang Theory Dashboard](https://public.tableau.com/app/profile/kuan.pei.lai/viz/TBBT/TBBT).
 ## Conclusion
 To sum up, with text analysis, we can roughly understand the contents of the stories and some key information of main characters. Although it took me some time to solve stemming problem and customize stemmer, I enjoyed this project and learned a lot from it! 
+
 It is always the best to work with something you love. As for me, I am passion with data and TBBT!
 
