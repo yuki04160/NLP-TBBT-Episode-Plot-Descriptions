@@ -8,7 +8,7 @@ Text mining is the process of transforming unstructured text data into a structu
    - Clean Data
      - Convert letters to lower case
      - Remove white space
-     - Remove punctuation
+     - Remove punctuations
      - Remove stop words
    - Build a Corpus
    - Customize Stemmer and Stem Completion
