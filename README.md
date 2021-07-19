@@ -23,7 +23,7 @@ I assumed that we don't know TBBT very well and wanted to see if we can briefly 
    - Correlation of frequent terms plot
    - Word Association
      - I used the names of the male characters to view their relationship with female characters using findAssocs function.
-   - N-gram Analysis (Bi-gram/ 2-gram analysis)
+   - N-gram Analysis (Bi-gram/ 2-gram)
      - Bar cahrt of top 15 frequent Bi-grams
      - Bi-grams association
    - Clustering
