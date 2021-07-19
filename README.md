@@ -15,8 +15,26 @@ Text mining is the process of transforming unstructured text data into a structu
      - First, I found that tm_map function in tm package and stemDocument function in SnowBallC package will change a letter 'y' at the end of a word to letter 'i', making word can not be completed perfectly. Thus, to perfrom stemming, I used hunspell_stem function instead. 
      - Then, I found that hunspell_stem function can sometimes return none or more than one results. Thus, to solve this problem, I created a function to either keep original term or return the last stem word.
      - Lastly, I found that stemCompletion function sometimes is not able to complete words using a dictionary. Thus, to ensure that it will keep stem word instead of returning NA in such case, I wrote for loop and if function.
-
-
+    - Bag of Words
+      - I creted term-document matrix, which rows are the terms and columns are the documents.
+## Text Mining Analysis
+I assumed that we don't know TBBT very well and wanted to see if we can briefly understand this TV sitcom based on episode plot descriptions text analysis.
+   - Bar cahrt of top 20 frequent terms
+   - Correlation of frequent terms plot
+   - Word Association
+     - I used the names of the male characters to view their relationship with female characters using findAssocs function.
+   - N-gram Analysis
+     - I performed bi-gram (2-gram) analysis.
+       - Bar cahrt of top 15 frequent Bi-grams
+       - Bi-grams association
+   - Clustering
+     - I conducted hierarchical clustering.
+   - Text analysis by Season
+     - First, I changed episode number to season number using meta data for each column (episode).
+     - Then, With season number for each episode, I aggregated word frequency by season.
+     - Finally, I analyzed plot descriptions of the first (1) and the last season (12).
+   - Output CSV File
+     - I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "word", "season", and "count".
 
 
 viewed correlation of frequent terms, examined the association of a given word with other words, conducted 2-gram analysis, performed Hierarchical clustering, and analyzed episode plot descriptions by season. 
