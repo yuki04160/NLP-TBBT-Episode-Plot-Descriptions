@@ -30,10 +30,10 @@ I assumed that we don't know TBBT very well and wanted to see if we can briefly 
      - I conducted hierarchical clustering.
    - Text analysis by Season
      - First, I changed episode number to season number using meta data for each column (episode).
-     - Then, With season number for each episode, I aggregated word frequency by season.
+     - Then, with season number for each episode, I aggregated word frequency by season.
      - Finally, I analyzed plot descriptions of the first (1) and the last season (12).
    - Output CSV File
-     - I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "word", "season", and "count".
+     - Since I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "season", "word", and "count". To see dashboard: [The Big Bang Theory Dashboard](https://public.tableau.com/app/profile/kuan.pei.lai/viz/TBBT/TBBT).
 
 
 viewed correlation of frequent terms, examined the association of a given word with other words, conducted 2-gram analysis, performed Hierarchical clustering, and analyzed episode plot descriptions by season. 
