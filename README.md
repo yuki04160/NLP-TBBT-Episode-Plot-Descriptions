@@ -33,8 +33,7 @@ I assumed that we don't know TBBT very well and wanted to see if we can briefly 
      - Then, with season number for each episode, I aggregated word frequency by season.
      - Finally, I analyzed plot descriptions of the first (1) and the last season (12).
    - Output CSV File
-     - Since I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "season", "word", and "count". To see dashboard: [The Big Bang Theory Dashboard](https://public.tableau.com/app/profile/kuan.pei.lai/viz/TBBT/TBBT).
-
-
-viewed correlation of frequent terms, examined the association of a given word with other words, conducted 2-gram analysis, performed Hierarchical clustering, and analyzed episode plot descriptions by season. 
+     - Since I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "season", "word", and "count". To see my dashboard: [The Big Bang Theory Dashboard](https://public.tableau.com/app/profile/kuan.pei.lai/viz/TBBT/TBBT).
+## Conclusion
+To sum up, with text analysis, we can roughly understand the contents of the stories and some key information of main characters. Although it took me some time to solve stemming problem and customize stemmer, I enjoyed this project and learned a lot from it! It is always the best to work with something you love. As for me, I am passion with data and TBBT!
 
