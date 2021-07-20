@@ -18,7 +18,7 @@ The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 
      - Then, I found that hunspell_stem function can sometimes return none or more than one results. Thus, to solve this problem, I created a function to either keep original term or return the last stem word.
      - Lastly, I found that stemCompletion function sometimes is not able to complete words using a dictionary. Thus, to ensure that it will keep stem word instead of returning NA in such case, I wrote for loop and if function.
    - Bag of Words
-     - I creted term-document matrix, which rows are the terms and columns are the documents.
+     - I creted a term-document matrix, which rows are the terms and columns are the documents.
 ## Text Mining Analysis
    - Bar cahrt of top 20 frequent terms
    - Correlation of frequent terms plot
