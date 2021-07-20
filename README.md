@@ -38,5 +38,5 @@ The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 
 ## Conclusion
 To sum up, with text analysis, we can roughly understand the contents of the stories and some key information of main characters. Although it took me some time to solve stemming problem and customize stemmer, I enjoyed this project and learned a lot from it! 
 
-It is always the best to work with something you love. As for me, I am passion with data and TBBT!
+<strong>It is always the best to work with something you love. As for me, I am passion with data and TBBT!</strong>
 
