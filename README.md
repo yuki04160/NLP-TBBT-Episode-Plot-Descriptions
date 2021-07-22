@@ -19,7 +19,7 @@ The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 
      - Then, I found that hunspell_stem function can sometimes return none or more than one results. Thus, to solve this problem, I created a function to either keep the original term or return the last stem word.
      - Lastly, I found that stemCompletion function sometimes is not able to complete words using a dictionary. Thus, to ensure that it will keep the stem word instead of returning NA in such case, I wrote For loop and If function.
    - Bag of Words
-     - I creted a term-document matrix, which rows are the terms and columns are the documents.
+     - I creted a term-document matrix where rows are the terms and columns are the documents.
 ## Text Mining Analysis
    - Bar cahrt of top 20 frequent terms
    - Correlation of frequent terms plot
@@ -37,7 +37,7 @@ The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 
    - Output CSV File
      - Since I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "season", "word", and "count". To see my dashboard: [The Big Bang Theory Dashboard](https://public.tableau.com/app/profile/kuan.pei.lai/viz/TBBT/TBBT).
 ## Conclusion
-To sum up, with text analysis, we can roughly understand the contents of the stories and some key information of main characters. Although it took me some time to solve stemming problem and customize stemmer, I enjoyed this project and learned a lot from it! 
+To sum up, with text analysis, we can roughly understand the contents of the stories and some key information of main characters. Although it took me some time to solve the stemming problem and customize stemmer, I enjoyed this project and learned a lot from it! 
 
 <strong>It is always the best to work with something you love. As for me, I am passion with data and TBBT!</strong>
 
