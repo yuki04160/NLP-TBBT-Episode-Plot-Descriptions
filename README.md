@@ -7,7 +7,7 @@ The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 
 
 ## Text Data Cleaning and Preprocessing
    - Delete rows
-     - To focus on the 279 episode, I deleted two episodes, one unaired pilot and one recap.
+     - To focus on the 279 episodes, I deleted two episodes: one unaired pilot and one recap.
    - Clean Data
      - Convert letters to lower case
      - Remove white space
