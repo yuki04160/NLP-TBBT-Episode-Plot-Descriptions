@@ -13,7 +13,7 @@ The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 
      - Remove white space
      - Remove punctuations
      - Remove stop words
-   - Build a Corpus
+   - Build a Corpus and a Dictionary
    - Customize Stemmer and Stem Completion
      - First, I found that tm_map function in tm package and stemDocument function in SnowBallC package will change a letter 'y' at the end of a word to letter 'i', making words can not be completed perfectly. Thus, to perfrom stemming, I used hunspell_stem function instead.      
      - Then, I found that hunspell_stem function can sometimes return none or more than one result. Thus, to solve this problem, I created a function to either keep the original term or return the last stem word.
