@@ -35,7 +35,7 @@ The Big Bang Theory (TBBT) is an American television sitcom premiered on CBS in 
      - Then, with season number for each episode, I aggregated word frequency by season.
      - Finally, I analyzed plot descriptions of the first (1) and the last season (12).
    - Output CSV File
-     - Since I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "season", "word", and "count". To see my dashboard: [The Big Bang Theory Dashboard](https://public.tableau.com/app/profile/kuan.pei.lai/viz/TBBT/TBBT).
+     - Since I decided to build a TBBT dashboard with a word cloud using Tableau, I outputed the file with columns "season," "word," and "count." To see my dashboard: [The Big Bang Theory Dashboard](https://public.tableau.com/app/profile/kuan.pei.lai/viz/TBBT/TBBT).
 ## Conclusion
 To sum up, with text analysis, we can roughly understand the contents of the stories and some key information of main characters. Although it took me some time to solve the stemming problem and customize stemmer, I enjoyed this project and learned a lot from it! 
 
