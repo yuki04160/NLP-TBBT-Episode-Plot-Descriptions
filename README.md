@@ -1,4 +1,4 @@
-# Text Mining - TBBT Episode Plot Descriptions
+# NLP - TBBT Episode Plot Descriptions
 To analyze The Big Bang Theory episode plot descriptions, I cleaned and preprocessed text data, and conducted some basic text mining in R using data.world datasets - [Big Bang Theory Information](https://data.world/priyankad0993/big-band-theory-information).
 ## Introduction
 Text mining is the process of transforming unstructured text data into a structured format and deriving high-quality information from unstructured data. 
